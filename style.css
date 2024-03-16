@@ -1,0 +1,43 @@
+.container{
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(flat-lay-notebook-with-list-desk_23-2148938724.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+h1{
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+.row{
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
+    
+}
+#taskList .card{
+    background-color:rgba(230, 150, 183, 0.7);
+    background-blend-mode: overlay;
+    padding: 10px;
+    margin: 10px;
+    
+}
+#taskList h4{
+    color: rgb(56, 8, 98);
+    text-shadow: 2dvh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#taskList .card-body{
+    display: flex;
+    justify-content: space-between; /* Align buttons to opposite corners */
+    align-items: center;
+}
